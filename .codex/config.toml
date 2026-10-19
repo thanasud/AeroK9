@@ -1,0 +1,10 @@
+[mcp_servers.freecad]
+command = "/Applications/FreeCAD.app/Contents/Resources/bin/freecad-mcp"
+args = [
+    "--mode",
+    "embedded",
+]
+
+[mcp_servers.freecad.env]
+DYLD_LIBRARY_PATH = "/Applications/FreeCAD.app/Contents/Frameworks:/Applications/FreeCAD.app/Contents/Resources/lib"
+PYTHONPATH = "/Applications/FreeCAD.app/Contents/Resources/lib"
